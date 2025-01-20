@@ -69,7 +69,7 @@ export default function Index() {
 
           <div className="flex justify-center md:size-auto">
             <div className="grid grid-cols-2 gap-4 fill-blue-500">
-              <Link to="/project/FrailtyCheckSystem/">
+              <Link to="/project/Frailty-Check-System/">
                 <Card
                   title="高齢者に向けたフレイルチェックシステム開発プロジェクト"
                   description="高齢者のフレイルチェックを支援するため、Djangoや音声認識を用いたWebシステムを開発。"
