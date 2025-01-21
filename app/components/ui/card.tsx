@@ -13,6 +13,9 @@ const Card: React.FC<CardProps> = ({ title, description, image }) => {
         className="rounded-t-2xl w-full"
         src={image}
         alt="Project Thumbnail"
+        onContextMenu={(e) => e.preventDefault()}
+        onSelect={(e) => e.preventDefault()}
+        onMouseDown={(e) => e.preventDefault()}
       />
 
       <div className="p-3 rounded-b-2xl bg-gray-900 shadow-inner">

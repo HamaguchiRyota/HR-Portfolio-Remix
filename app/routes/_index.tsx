@@ -25,6 +25,9 @@ export default function Index() {
               className="rounded-full size-1/3"
               src="https://avatars.githubusercontent.com/u/52881627"
               alt="icon"
+              onContextMenu={(e) => e.preventDefault()}
+              onSelect={(e) => e.preventDefault()}
+              onMouseDown={(e) => e.preventDefault()}
             />
           </div>
         </div>

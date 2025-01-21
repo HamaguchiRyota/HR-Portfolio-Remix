@@ -18,6 +18,9 @@ export default function Index() {
               className="rounded-2xl w-full"
               src={thumbnail}
               alt="Project Thumbnail"
+              onContextMenu={(e) => e.preventDefault()}
+              onSelect={(e) => e.preventDefault()}
+              onMouseDown={(e) => e.preventDefault()}
             />
             <h1 className="font-bold text-4xl mt-7 mb-7">
               高齢者に向けたフレイルチェックシステム開発プロジェクト
