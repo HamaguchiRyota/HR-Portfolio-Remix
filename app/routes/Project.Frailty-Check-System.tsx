@@ -1,6 +1,6 @@
 import type { MetaFunction } from "@remix-run/node";
 import thumbnail from "~/img/fcs.png";
-import Clock from "~/components/svg/time";
+import Calender from "~/components/svg/calender";
 
 export const meta: MetaFunction = () => {
   return [
@@ -29,7 +29,7 @@ export default function Index() {
               </h1>
 
               <div className="flex flex-row mt-1 gap-1 leading-7 text-slate-400/50">
-                <Clock />
+                <Calender />
                 <p className="">2023年1月 ~ 2024年12月</p>
               </div>
             </article>
