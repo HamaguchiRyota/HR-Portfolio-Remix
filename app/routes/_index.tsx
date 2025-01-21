@@ -10,8 +10,8 @@ import NotFound from "~/img/notfound.png";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "Profile" },
-    { name: "description", content: "Welcome to Remix!" },
+    { title: "Hamaryo-Portfolio" },
+    { name: "description", content: "Portfolio of Hamaryo built with Remix." },
   ];
 };
 
