@@ -1,5 +1,6 @@
 import type { MetaFunction } from "@remix-run/node";
 import thumbnail from "~/img/fcs.png";
+import Clock from "~/components/svg/time";
 
 export const meta: MetaFunction = () => {
   return [
@@ -22,9 +23,16 @@ export default function Index() {
               onSelect={(e) => e.preventDefault()}
               onMouseDown={(e) => e.preventDefault()}
             />
-            <h1 className="font-bold text-4xl mt-7 mb-7">
-              高齢者に向けたフレイルチェックシステム開発プロジェクト
-            </h1>
+            <article className="mt-7 mb-7">
+              <h1 className="font-bold text-4xl">
+                高齢者に向けたフレイルチェックシステム開発プロジェクト
+              </h1>
+
+              <div className="flex flex-row mt-1 gap-1 leading-7 text-slate-400/50">
+                <Clock />
+                <p className="">2023年1月 ~ 2024年12月</p>
+              </div>
+            </article>
 
             <article className="">
               <div className="border-l-4 border-indigo-500">
