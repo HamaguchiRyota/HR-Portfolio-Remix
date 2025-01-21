@@ -20,7 +20,7 @@ export default function Index() {
     <div className="selection:bg-indigo-300 selection:text-indigo-700 md:size-auto sm:size-auto lg:size-auto xl:size-auto">
       <div className="p-4">
         <div className="p-5">
-          <div className="flex justify-center">
+          <div className="flex justify-center w-full max-w-4xl mx-auto">
             <img
               className="rounded-full size-1/3"
               src="https://avatars.githubusercontent.com/u/52881627"
