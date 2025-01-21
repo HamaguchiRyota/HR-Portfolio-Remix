@@ -4,8 +4,8 @@ import Calender from "~/components/svg/calender";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "Project - Frailty-Check-System" },
-    { name: "description", content: "Frailty-Check-System" },
+    { title: "Article - ポートフォリオサイトを作成しました！🎉" },
+    { name: "description", content: "記事" },
   ];
 };
 
