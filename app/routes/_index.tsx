@@ -60,53 +60,55 @@ export default function Index() {
           </div>
         </div>
 
-        <div className="m-5 p-5 bg-[#374250] rounded-2xl shadow-inner">
-          <div className="pb-5 flex">
-            <h1 className="font-mono text-2xl subpixel-antialiased text-left">
-              プロジェクト一覧
-            </h1>
+        <div className="w-full max-w-6xl mx-auto">
+          <div className="m-5 p-5 bg-[#374250] rounded-2xl shadow-inner">
+            <div className="pb-5 flex">
+              <h1 className="font-mono text-2xl subpixel-antialiased text-left">
+                プロジェクト一覧
+              </h1>
+            </div>
+
+            <div className="flex justify-center md:size-auto">
+              <div className="grid grid-cols-2 gap-4 fill-blue-500">
+                <Link to="/Project/Frailty-Check-System/">
+                  <Card
+                    title="高齢者に向けたフレイルチェックシステム開発プロジェクト"
+                    description="高齢者のフレイルチェックを支援するため、Djangoや音声認識を用いたWebシステムを開発。"
+                    image={FCSThum}
+                  />
+                </Link>
+                <Link to="/Project/Supplemental-Documentation-System/">
+                  <Card
+                    title="聴覚障碍者に向けたノートテイクシステム開発プロジェクト"
+                    description="聴覚障碍者の支援内容をシステムで代替するため、講義動画から音声、スライドを抽出し、ノートテイク資料を作成するシステムを開発。"
+                    image={TLFMSThum}
+                  />
+                </Link>
+              </div>
+            </div>
           </div>
 
-          <div className="flex justify-center md:size-auto">
-            <div className="grid grid-cols-2 gap-4 fill-blue-500">
-              <Link to="/Project/Frailty-Check-System/">
+          <div className="m-5 p-5 bg-[#374250] rounded-2xl shadow-inner">
+            <div className="pb-5 flex">
+              <h1 className="font-mono text-2xl subpixel-antialiased text-left">
+                記事一覧
+              </h1>
+            </div>
+
+            <div className="flex justify-center md:size-auto">
+              <div className="grid grid-cols-2 gap-4 fill-blue-500">
                 <Card
                   title="高齢者に向けたフレイルチェックシステム開発プロジェクト"
                   description="高齢者のフレイルチェックを支援するため、Djangoや音声認識を用いたWebシステムを開発。"
-                  image={FCSThum}
+                  image={NotFound}
                 />
-              </Link>
-              <Link to="/Project/Supplemental-Documentation-System/">
+
                 <Card
-                  title="聴覚障碍者に向けたノートテイクシステム開発プロジェクト"
-                  description="聴覚障碍者の支援内容をシステムで代替するため、講義動画から音声、スライドを抽出し、ノートテイク資料を作成するシステムを開発。"
-                  image={TLFMSThum}
+                  title="高齢者に向けたフレイルチェックシステム開発プロジェクト"
+                  description="高齢者のフレイルチェックを支援するため、Djangoや音声認識を用いたWebシステムを開発。"
+                  image={NotFound}
                 />
-              </Link>
-            </div>
-          </div>
-        </div>
-
-        <div className="m-5 p-5 bg-[#374250] rounded-2xl shadow-inner">
-          <div className="pb-5 flex">
-            <h1 className="font-mono text-2xl subpixel-antialiased text-left">
-              記事一覧
-            </h1>
-          </div>
-
-          <div className="flex justify-center md:size-auto">
-            <div className="grid grid-cols-2 gap-4 fill-blue-500">
-              <Card
-                title="高齢者に向けたフレイルチェックシステム開発プロジェクト"
-                description="高齢者のフレイルチェックを支援するため、Djangoや音声認識を用いたWebシステムを開発。"
-                image={NotFound}
-              />
-
-              <Card
-                title="高齢者に向けたフレイルチェックシステム開発プロジェクト"
-                description="高齢者のフレイルチェックを支援するため、Djangoや音声認識を用いたWebシステムを開発。"
-                image={NotFound}
-              />
+              </div>
             </div>
           </div>
         </div>
