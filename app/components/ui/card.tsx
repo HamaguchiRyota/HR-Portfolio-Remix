@@ -8,7 +8,7 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ({ title, description, image }) => {
   return (
-    <div className="rounded-2xl border border-indigo-500/100 border-color-indigo max-h-96 shadow-lg hover:shadow-indigo-500/50 duration-300 mb-auto">
+    <div className="rounded-2xl border border-indigo-500/100 border-color-indigo shadow-lg hover:shadow-indigo-500/50 duration-300 mb-auto">
       <img
         className="rounded-t-2xl w-full"
         src={image}
