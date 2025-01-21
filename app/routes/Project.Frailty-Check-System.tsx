@@ -23,7 +23,7 @@ export default function Index() {
               onSelect={(e) => e.preventDefault()}
               onMouseDown={(e) => e.preventDefault()}
             />
-            <article className="mt-7 mb-7">
+            <article className="mt-7 mb-7 pb-2 border-b-2 border-slate-500/15">
               <h1 className="font-bold text-4xl">
                 高齢者に向けたフレイルチェックシステム開発プロジェクト
               </h1>
