@@ -41,34 +41,46 @@ export default function Index() {
         <div className="p-5">
           <div className="flex justify-center">
             <div className="grid grid-cols-3 gap-3 fill-blue-500">
-              <XformerlyTwitter
-                width="35"
-                height="35"
-                fill="#fff"
-                className="hover:fill-indigo-500 duration-300"
-              />
-              <Github
-                width="35"
-                height="35"
-                fill="#fff"
-                className="hover:fill-indigo-500 duration-300"
-              />
-              <LinkedIn
-                width="35"
-                height="35"
-                fill="#fff"
-                className="hover:fill-indigo-500 duration-300"
-              />
+              <a href="https://x.com/_hamaryo" target="_blank">
+                <XformerlyTwitter
+                  width="35"
+                  height="35"
+                  fill="#fff"
+                  className="hover:fill-indigo-500 duration-300"
+                />
+              </a>
+              <a href="https://github.com/HamaguchiRyota" target="_blank">
+                <Github
+                  width="35"
+                  height="35"
+                  fill="#fff"
+                  className="hover:fill-indigo-500 duration-300"
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/hamaguchi-ryota/"
+                target="_blank"
+              >
+                <LinkedIn
+                  width="35"
+                  height="35"
+                  fill="#fff"
+                  className="hover:fill-indigo-500 duration-300"
+                />
+              </a>
             </div>
           </div>
         </div>
 
         <div className="w-full max-w-6xl mx-auto">
           <div className="m-5 p-5 bg-[#374250] rounded-2xl shadow-inner">
-            <div className="pb-5 flex">
-              <h1 className="font-mono text-2xl subpixel-antialiased text-left">
+            <div className="pb-5 flex items-center justify-between">
+              <h1 className="font-mono font-bold text-2xl subpixel-antialiased justify-content-start">
                 プロジェクト一覧
               </h1>
+              <p className="font-mono font-bold text-xl subpixel-antialiased justify-content-end underline decoration-indigo-500">
+                <Link to="/Project/">{">"}</Link>
+              </p>
             </div>
 
             <div className="flex justify-center md:size-auto">
@@ -94,10 +106,13 @@ export default function Index() {
           </div>
 
           <div className="m-5 p-5 bg-[#374250] rounded-2xl shadow-inner">
-            <div className="pb-5 flex">
-              <h1 className="font-mono text-2xl subpixel-antialiased text-left">
+            <div className="pb-5 flex items-center justify-between">
+              <h1 className="font-mono font-bold text-2xl subpixel-antialiased justify-content-start">
                 記事一覧
               </h1>
+              <p className="font-mono font-bold text-xl subpixel-antialiased justify-content-end underline decoration-indigo-500">
+                <Link to="/Article/">{">"}</Link>
+              </p>
             </div>
 
             <div className="flex justify-center md:size-auto">
