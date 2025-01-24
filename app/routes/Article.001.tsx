@@ -48,7 +48,7 @@ export default function Index() {
                 <br />
                 過去に
                 <a
-                  class="underline decoration-indigo-500 font-bold"
+                  className="underline decoration-indigo-500 font-bold"
                   href="https://nextjs.org/"
                   target="_blank"
                 >
@@ -56,7 +56,7 @@ export default function Index() {
                 </a>
                 の
                 <a
-                  class="underline decoration-indigo-500 font-bold"
+                  className="underline decoration-indigo-500 font-bold"
                   href="https://nextra.site/"
                   target="_blank"
                 >
