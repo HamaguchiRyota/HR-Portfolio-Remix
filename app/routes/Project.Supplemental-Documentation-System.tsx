@@ -27,7 +27,7 @@ export default function Index() {
               onMouseDown={(e) => e.preventDefault()}
             />
             <article className="mt-7 mb-7 pb-2 border-b-2 border-slate-500/15">
-              <h1 className="font-bold text-4xl">
+              <h1 className="font-bold sm:text-4xl sd:text-3xl text-2xl">
                 聴覚障碍者に向けたノートテイクシステム開発プロジェクト
               </h1>
 
