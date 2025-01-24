@@ -74,10 +74,13 @@ export default function Index() {
 
         <div className="w-full max-w-6xl mx-auto">
           <div className="m-5 p-5 bg-[#374250] rounded-2xl shadow-inner">
-            <div className="pb-5 flex">
-              <h1 className="font-mono text-2xl subpixel-antialiased text-left">
+            <div className="pb-5 flex items-center justify-between">
+              <h1 className="font-mono text-2xl subpixel-antialiased justify-content-start">
                 プロジェクト一覧
               </h1>
+              <p className="font-mono text-base subpixel-antialiased justify-content-end">
+                <Link to="/Project/">もっと見る</Link>
+              </p>
             </div>
 
             <div className="flex justify-center md:size-auto">
@@ -103,10 +106,13 @@ export default function Index() {
           </div>
 
           <div className="m-5 p-5 bg-[#374250] rounded-2xl shadow-inner">
-            <div className="pb-5 flex">
-              <h1 className="font-mono text-2xl subpixel-antialiased text-left">
+            <div className="pb-5 flex items-center justify-between">
+              <h1 className="font-mono text-2xl subpixel-antialiased justify-content-start">
                 記事一覧
               </h1>
+              <p className="font-mono text-base subpixel-antialiased justify-content-end">
+                <Link to="/Project/">もっと見る</Link>
+              </p>
             </div>
 
             <div className="flex justify-center md:size-auto">
