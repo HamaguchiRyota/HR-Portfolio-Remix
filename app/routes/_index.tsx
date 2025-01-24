@@ -41,24 +41,33 @@ export default function Index() {
         <div className="p-5">
           <div className="flex justify-center">
             <div className="grid grid-cols-3 gap-3 fill-blue-500">
-              <XformerlyTwitter
-                width="35"
-                height="35"
-                fill="#fff"
-                className="hover:fill-indigo-500 duration-300"
-              />
-              <Github
-                width="35"
-                height="35"
-                fill="#fff"
-                className="hover:fill-indigo-500 duration-300"
-              />
-              <LinkedIn
-                width="35"
-                height="35"
-                fill="#fff"
-                className="hover:fill-indigo-500 duration-300"
-              />
+              <a href="https://x.com/_hamaryo" target="_blank">
+                <XformerlyTwitter
+                  width="35"
+                  height="35"
+                  fill="#fff"
+                  className="hover:fill-indigo-500 duration-300"
+                />
+              </a>
+              <a href="https://github.com/HamaguchiRyota" target="_blank">
+                <Github
+                  width="35"
+                  height="35"
+                  fill="#fff"
+                  className="hover:fill-indigo-500 duration-300"
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/hamaguchi-ryota/"
+                target="_blank"
+              >
+                <LinkedIn
+                  width="35"
+                  height="35"
+                  fill="#fff"
+                  className="hover:fill-indigo-500 duration-300"
+                />
+              </a>
             </div>
           </div>
         </div>
