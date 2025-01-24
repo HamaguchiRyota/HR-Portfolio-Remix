@@ -5,10 +5,10 @@ import articleData from "~/Article/Project/sds.json";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "Project - Supplemental-Documentation-System" },
+    { title: `プロジェクト - ${articleData.title}` },
     {
       name: "description",
-      content: "Supplemental-Documentation-System",
+      content: `${articleData.title}`,
     },
   ];
 };

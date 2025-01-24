@@ -5,7 +5,7 @@ import articleData from "~/Article/hamaryo/001.json";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: `Article - ${articleData.title}` },
+    { title: `記事 - ${articleData.title}` },
     { name: "description", content: "記事" },
   ];
 };

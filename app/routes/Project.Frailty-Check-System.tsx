@@ -5,8 +5,8 @@ import articleData from "~/Article/Project/fcs.json";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: `Project - ${articleData.title}` },
-    { name: "description", content: "Frailty-Check-System" },
+    { title: `プロジェクト - ${articleData.title}` },
+    { name: "description", content: `${articleData.title}` },
   ];
 };
 
