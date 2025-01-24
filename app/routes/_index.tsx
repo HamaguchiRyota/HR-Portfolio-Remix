@@ -78,8 +78,8 @@ export default function Index() {
               <h1 className="font-mono text-2xl subpixel-antialiased justify-content-start">
                 プロジェクト一覧
               </h1>
-              <p className="font-mono text-base subpixel-antialiased justify-content-end">
-                <Link to="/Project/">もっと見る</Link>
+              <p className="font-mono font-bold text-xl subpixel-antialiased justify-content-end underline decoration-indigo-500">
+                <Link to="/Project/">{">"}</Link>
               </p>
             </div>
 
@@ -110,8 +110,8 @@ export default function Index() {
               <h1 className="font-mono text-2xl subpixel-antialiased justify-content-start">
                 記事一覧
               </h1>
-              <p className="font-mono text-base subpixel-antialiased justify-content-end">
-                <Link to="/Project/">もっと見る</Link>
+              <p className="font-mono font-bold text-xl subpixel-antialiased justify-content-end underline decoration-indigo-500">
+                <Link to="/Article/">{">"}</Link>
               </p>
             </div>
 
