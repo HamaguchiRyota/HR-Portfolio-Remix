@@ -30,10 +30,7 @@ export default function Header() {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <a>Portfolio</a>
-            </li>
-            <li>
-              <a>About</a>
+              <Link to="/About">About</Link>
             </li>
           </ul>
         </div>

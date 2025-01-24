@@ -58,7 +58,7 @@ export default function Index() {
                 {Object.entries(articleData.links).map(([text, url]) => (
                   <li key={url}>
                     <a
-                      className="underline decoration-indigo-500 font-bold"
+                      className="font-mono text-indigo-400 font-bold after:content-['_↗'] hover:underline decoration-indigo-500"
                       href={url}
                       target="_blank"
                     >
