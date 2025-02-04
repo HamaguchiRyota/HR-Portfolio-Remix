@@ -1,7 +1,7 @@
 import type { MetaFunction } from "@remix-run/node";
 import thumbnail from "~/img/fcs.png";
 import Calender from "~/components/svg/calender";
-import articleData from "~/Article/Project/fcs.json";
+import articleData from "~/Article/project/fcs.json";
 
 export const meta: MetaFunction = () => {
   return [
