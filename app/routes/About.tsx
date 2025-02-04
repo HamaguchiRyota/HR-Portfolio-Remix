@@ -1,7 +1,7 @@
 import type { MetaFunction } from "@remix-run/node";
-import NotFound11 from "~/img/ntf1-1.png";
-import Remix from "~/img/Remix.png";
-import Tailwindcss from "~/img/Tailwindcss.png";
+import NotFound11 from "~/img/ntf11.png";
+import Remix from "~/img/remix.png";
+import Tailwindcss from "~/img/tailwindcss.png";
 
 export const meta: MetaFunction = () => {
   return [

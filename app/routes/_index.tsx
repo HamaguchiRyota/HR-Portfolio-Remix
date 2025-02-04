@@ -5,7 +5,7 @@ import Github from "~/components/svg/github";
 import LinkedIn from "~/components/svg/linkedin";
 import Card from "~/components/ui/card";
 import FCSThum from "~/img/fcs.png";
-import TLFMSThum from "~/img/TL.png";
+import TLFMSThum from "~/img/tl.png";
 import NotFound from "~/img/notfound.png";
 
 export const meta: MetaFunction = () => {
