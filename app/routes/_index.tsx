@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
 import type { MetaFunction } from "@remix-run/node";
 import { Link } from "@remix-run/react";
 import XformerlyTwitter from "~/components/svg/Twitter";
@@ -41,7 +42,7 @@ export default function Index() {
         <div className="p-5">
           <div className="flex justify-center">
             <div className="grid grid-cols-3 gap-3 fill-blue-500">
-              <a href="https://x.com/_hamaryo" target="_blank">
+              <a href="https://x.com/_hamaryo" target="_blank" rel="noreferrer">
                 <XformerlyTwitter
                   width="35"
                   height="35"
@@ -49,7 +50,11 @@ export default function Index() {
                   className="hover:fill-indigo-500 duration-300"
                 />
               </a>
-              <a href="https://github.com/HamaguchiRyota" target="_blank">
+              <a
+                href="https://github.com/HamaguchiRyota"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <Github
                   width="35"
                   height="35"
@@ -60,6 +65,7 @@ export default function Index() {
               <a
                 href="https://www.linkedin.com/in/hamaguchi-ryota/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <LinkedIn
                   width="35"
@@ -117,7 +123,7 @@ export default function Index() {
 
             <div className="flex justify-center md:size-auto">
               <div className="grid sm:grid-cols-2 gap-4 fill-blue-500">
-                <Link to="/Article/001/">
+                <Link to="/Article/1/">
                   <Card
                     title="ポートフォリオサイトを作成しました！🎉"
                     description=""

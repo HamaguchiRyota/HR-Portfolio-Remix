@@ -1,5 +1,6 @@
+/* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
 import type { MetaFunction } from "@remix-run/node";
-import NotFound11 from "~/img/ntf1-1.png";
+import NotFound11 from "~/img/ntf11.png";
 import Remix from "~/img/Remix.png";
 import Tailwindcss from "~/img/Tailwindcss.png";
 

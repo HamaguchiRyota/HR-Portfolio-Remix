@@ -1,22 +1,22 @@
 /* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
 import type { MetaFunction } from "@remix-run/node";
-import thumbnail from "~/img/fcs.png";
+import NotFound from "~/img/notfound.png";
 import Calender from "~/components/svg/calender";
-import articleData from "~/article/project/fcs.json";
+import articleData from "~/article/hamaryo/001.json";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: `プロジェクト - ${articleData.title}` },
-    { name: "description", content: `${articleData.title}` },
+    { title: `記事 - ${articleData.title}` },
+    { name: "description", content: "記事" },
   ];
 };
 
-export default function Index() {
+export default function Article() {
   return (
     <div>
       <img
         className="rounded-2xl w-full"
-        src={thumbnail}
+        src={NotFound}
         alt="Project Thumbnail"
         onContextMenu={(e) => e.preventDefault()}
         onSelect={(e) => e.preventDefault()}
