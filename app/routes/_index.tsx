@@ -117,7 +117,7 @@ export default function Index() {
 
             <div className="flex justify-center md:size-auto">
               <div className="grid sm:grid-cols-2 gap-4 fill-blue-500">
-                <Link to="/Article/001/">
+                <Link to="/Article/1/">
                   <Card
                     title="ポートフォリオサイトを作成しました！🎉"
                     description=""
