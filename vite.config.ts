@@ -24,6 +24,9 @@ export default defineConfig({
   ],
   build: {
     outDir: "build",
+    rollupOptions: {
+      external: ["~/article/hamaryo/001.json"], // 明示的にエクスポート
+    },
   },
   resolve: {
     alias: {
